@@ -1,6 +1,5 @@
 use("chrome-burger-db");
 
-
 // Clear existing data
 db.suppliers.deleteMany({});
 
