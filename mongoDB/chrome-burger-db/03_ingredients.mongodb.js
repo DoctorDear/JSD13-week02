@@ -1,4 +1,3 @@
-
 use("chrome-burger-db");
 
 // Clear existing data 
