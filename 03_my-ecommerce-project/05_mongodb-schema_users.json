@@ -1,0 +1,23 @@
+[
+{
+  "_id": "65f123456789abcdef012345",
+  "name": "สมชาย ใจดี",
+  "email": "somchai@email.com",
+  "password": "hashed_password_string",
+  "role": "customer", 
+  "cart": [
+    {
+      "equipmentId": "65f987654321fedcba543210",
+      "quantity": 1
+    }
+  ]
+},
+
+{
+  "_id": "65f123456789abcdef012346",
+  "name": "สุชาติ โชคชัย",
+  "email": "Suchat@email.com",
+  "password": "hashed_password_string2",
+  "role": "Admin"
+}
+]

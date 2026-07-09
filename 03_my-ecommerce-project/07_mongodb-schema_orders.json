@@ -1,0 +1,13 @@
+{
+  "_id": "65f9be8f123456789abcdef0",
+  "renterId": "65f123456789abcdef012345",
+  "equipmentId": "65f987654321fedcba543210",
+  "startDate": "2026-07-10T00:00:00Z",
+  "endDate": "2026-07-15T00:00:00Z",
+  "deposit": 5000,
+  "status": "pending",
+  "verificationDoc": {
+    "idCardImageUrl": "https://storage.googleapis.com/camera-rental-bucket/verification/id_card_somchai.jpg",
+    "uploadedAt": "2026-07-09T14:30:00Z"
+  }
+}
