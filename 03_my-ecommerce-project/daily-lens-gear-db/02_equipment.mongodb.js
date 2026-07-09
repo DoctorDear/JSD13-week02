@@ -188,6 +188,22 @@ db.equipment.insertMany([
     "category": "Flash",
     "pricePerDay": 300,
     "status": "available"
+  },
+  {
+    "_id": ObjectId("65f987654321fedcba543227"),
+    "name": "Godox Xpro-S Wireless Flash Trigger (for Sony)",
+    "brand": "Godox",
+    "category": "Flash",
+    "pricePerDay": 150,
+    "status": "available"
+  },
+  {
+    "_id": ObjectId("65f987654321fedcba543228"),
+    "name": "Godox Xpro-C Wireless Flash Trigger (for Canon)",
+    "brand": "Godox",
+    "category": "Flash",
+    "pricePerDay": 150,
+    "status": "available"
   }
 ]);
 
