@@ -73,10 +73,12 @@ erDiagram
     ORDERS {
         ObjectId _id PK
         ObjectId renterId FK "References USERS"
-        ObjectId equipmentId FK "References USERS"
+        ObjectId equipmentId FK "References EQUIPMENTS"
         Date startDate
         Date endDate
+        Number rentalFee
         Number deposit
+        Number totalAmount
         String status "'pending' | 'active' | 'returned' | 'cancelled'"
         Object verificationDoc "Embedded {idCardImageUrl, uploadedAt}"
     }

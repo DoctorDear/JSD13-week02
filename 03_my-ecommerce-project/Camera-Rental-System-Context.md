@@ -133,7 +133,9 @@ erDiagram
         ObjectId equipmentId FK
         Date startDate
         Date endDate
+        Number rentalFee
         Number deposit
+        Number totalAmount
         String status
         Object verificationDoc
     }
@@ -174,7 +176,9 @@ erDiagram
 - **`equipmentId`**: ObjectId (Reference ID ชี้กลับไปที่ `_id` ของคอลเลกชัน `Equipments`)
 - **`startDate`**: Date (วัน-เวลาที่เริ่มเช่าอุปกรณ์)
 - **`endDate`**: Date (วัน-เวลาที่ต้องคืนอุปกรณ์)
+- **`rentalFee`**: Number (ยอดรวมค่าเช่าตามจำนวนวันเช่า)
 - **`deposit`**: Number (ยอดเงินมัดจำประกันอุปกรณ์)
+- **`totalAmount`**: Number (ยอดชำระสุทธิรวมมัดจำ = rentalFee + deposit)
 - **`status`**: String (สถานะของออเดอร์: `'pending'`, `'active'`, `'returned'`, `'cancelled'`)
 - **`verificationDoc`**: Object (สำเนาเอกสารยืนยันตัวตนที่ฝังไว้เฉพาะออเดอร์นี้ เพื่อความชัวร์ในทุกรอบการเช่า)
   - `idCardImageUrl`: String (ลิงก์ที่อยู่ไฟล์รูปภาพสำเนาบัตรประชาชน)
