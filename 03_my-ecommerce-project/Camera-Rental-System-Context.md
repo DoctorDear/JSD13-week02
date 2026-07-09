@@ -163,7 +163,7 @@ erDiagram
 - **`_id`**: ObjectId (Primary Key)
 - **`name`**: String (ชื่อรุ่นและชื่ออุปกรณ์)
 - **`brand`**: String (ยี่ห้อ เช่น Canon, Sony, Nikon)
-- **`category`**: String (หมวดหมู่อุปกรณ์: `'Body'`, `'Lens'`, `'Flash'`)
+- **`category`**: String (หมวดหมู่อุปกรณ์: `'Body'`, `'Lens'`, `'Flash'`, `'Adapter'`)
 - **`pricePerDay`**: Number (ราคาค่าเช่าต่อวัน)
 - **`status`**: String (สถานะพร้อมใช้งานของตัวอุปกรณ์เอง: `'available'`, `'maintenance'`)
 

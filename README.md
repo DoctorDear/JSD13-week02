@@ -66,7 +66,7 @@ erDiagram
         ObjectId _id PK
         String name
         String brand
-        String category "'Body' | 'Lens' | 'Flash'"
+        String category "'Body' | 'Lens' | 'Flash' | 'Adapter'"
         Number pricePerDay
         String status "'available' | 'maintenance'"
     }
