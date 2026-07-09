@@ -33,7 +33,7 @@ The primary project folder is [03_my-ecommerce-project](file:///c:/Users/DoctorD
   - [04_er-diagram.excalidraw](file:///c:/Users/DoctorDear/Code/JSD13/week-02/first-meet-dbs/03_my-ecommerce-project/04_er-diagram.excalidraw): Conceptual entity relations.
 * 🗄️ **MongoDB Schema Specifications (JSON Mock Documents):**
   - [05_mongodb-schema_users.json](file:///c:/Users/DoctorDear/Code/JSD13/week-02/first-meet-dbs/03_my-ecommerce-project/05_mongodb-schema_users.json): Customer and Admin entities with embedded shopping carts.
-  - [06_mongodb-schema_products.json](file:///c:/Users/DoctorDear/Code/JSD13/week-02/first-meet-dbs/03_my-ecommerce-project/06_mongodb-schema_products.json): Catalog structure of equipments (Body, Lens, Flash).
+  - [06_mongodb-schema_equipment.json](file:///c:/Users/DoctorDear/Code/JSD13/week-02/first-meet-dbs/03_my-ecommerce-project/06_mongodb-schema_equipment.json): Catalog structure of equipments (Body, Lens, Flash).
   - [07_mongodb-schema_orders.json](file:///c:/Users/DoctorDear/Code/JSD13/week-02/first-meet-dbs/03_my-ecommerce-project/07_mongodb-schema_orders.json): Order receipts containing date-ranges and embedded verification data.
 
 ---

@@ -141,7 +141,7 @@ erDiagram
 
 ---
 
-## 5. Database Schema Design (05_mongodb-schema_users.json, 06_mongodb-schema_products.json, 07_mongodb-schema_orders.json)
+## 5. Database Schema Design (05_mongodb-schema_users.json, 06_mongodb-schema_equipment.json, 07_mongodb-schema_orders.json)
 
 ในการเปลี่ยนมาใช้ MongoDB เราจะใช้หลักการ **Referencing (อ้างอิงไอดี)** สำหรับเชื่อมโยงคอลเลกชันหลัก เพื่อให้ข้อมูลมีความถูกต้องจากแหล่งเดียว (Single Source of Truth) และใช้หลักการ **Embedding (ฝังข้อมูล)** สำหรับระบบตะกร้าสินค้าชั่วคราวรวมถึงข้อมูลสำเนาบัตรประชาชนประจำออเดอร์ เพื่อความปลอดภัยและรัดกุมตามกฎของร้านค้า
 
